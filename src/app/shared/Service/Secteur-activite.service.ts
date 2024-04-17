@@ -21,5 +21,5 @@ export class SecteurActiviteService {
   deleteSecteurActivite(idSecteurActivite : any){
     return  this.httpClient.delete(`${this.API_URL}/remove-secteurActivite/${idSecteurActivite}`)
   }
-  //
+  //5
 }
